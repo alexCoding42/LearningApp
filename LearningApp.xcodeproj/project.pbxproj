@@ -10,6 +10,9 @@
 		EC0BEC4B29CF62220064806B /* HomeViewRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC0BEC4A29CF62220064806B /* HomeViewRow.swift */; };
 		EC0F15A229D0550A00CD5345 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC0F15A129D0550A00CD5345 /* ContentView.swift */; };
 		EC0F15A429D05C2C00CD5345 /* ContentViewRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC0F15A329D05C2C00CD5345 /* ContentViewRow.swift */; };
+		EC939D4429D1CEAB00BB66D9 /* ContentDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC939D4329D1CEAB00BB66D9 /* ContentDetailView.swift */; };
+		EC939D4729D1D15C00BB66D9 /* AVKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC939D4629D1D15C00BB66D9 /* AVKit.framework */; };
+		EC939D4929D1D2F900BB66D9 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC939D4829D1D2F900BB66D9 /* Constants.swift */; };
 		ECB2082429CDB20100EA779A /* LearningApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECB2082329CDB20100EA779A /* LearningApp.swift */; };
 		ECB2082629CDB20100EA779A /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECB2082529CDB20100EA779A /* HomeView.swift */; };
 		ECB2082829CDB20200EA779A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ECB2082729CDB20200EA779A /* Assets.xcassets */; };
@@ -24,6 +27,9 @@
 		EC0BEC4A29CF62220064806B /* HomeViewRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewRow.swift; sourceTree = "<group>"; };
 		EC0F15A129D0550A00CD5345 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		EC0F15A329D05C2C00CD5345 /* ContentViewRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentViewRow.swift; sourceTree = "<group>"; };
+		EC939D4329D1CEAB00BB66D9 /* ContentDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentDetailView.swift; sourceTree = "<group>"; };
+		EC939D4629D1D15C00BB66D9 /* AVKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVKit.framework; path = System/Library/Frameworks/AVKit.framework; sourceTree = SDKROOT; };
+		EC939D4829D1D2F900BB66D9 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		ECB2082029CDB20100EA779A /* LearningApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LearningApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ECB2082329CDB20100EA779A /* LearningApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LearningApp.swift; sourceTree = "<group>"; };
 		ECB2082529CDB20100EA779A /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
@@ -40,17 +46,27 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EC939D4729D1D15C00BB66D9 /* AVKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		EC939D4529D1D15C00BB66D9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EC939D4629D1D15C00BB66D9 /* AVKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		ECB2081729CDB20100EA779A = {
 			isa = PBXGroup;
 			children = (
 				ECB2082229CDB20100EA779A /* LearningApp */,
 				ECB2082129CDB20100EA779A /* Products */,
+				EC939D4529D1D15C00BB66D9 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -92,6 +108,7 @@
 				EC0BEC4A29CF62220064806B /* HomeViewRow.swift */,
 				EC0F15A329D05C2C00CD5345 /* ContentViewRow.swift */,
 				EC0F15A129D0550A00CD5345 /* ContentView.swift */,
+				EC939D4329D1CEAB00BB66D9 /* ContentDetailView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -117,6 +134,7 @@
 			children = (
 				ECB2083829CDC1AA00EA779A /* data.json */,
 				ECB2083929CDC1AA00EA779A /* style.html */,
+				EC939D4829D1D2F900BB66D9 /* Constants.swift */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -203,10 +221,12 @@
 				ECB2082629CDB20100EA779A /* HomeView.swift in Sources */,
 				EC0BEC4B29CF62220064806B /* HomeViewRow.swift in Sources */,
 				EC0F15A229D0550A00CD5345 /* ContentView.swift in Sources */,
+				EC939D4429D1CEAB00BB66D9 /* ContentDetailView.swift in Sources */,
 				ECB2082429CDB20100EA779A /* LearningApp.swift in Sources */,
 				EC0F15A429D05C2C00CD5345 /* ContentViewRow.swift in Sources */,
 				ECB2083729CDB29F00EA779A /* ContentModel.swift in Sources */,
 				ECB2083D29CDCFEC00EA779A /* Models.swift in Sources */,
+				EC939D4929D1D2F900BB66D9 /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -332,6 +352,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"LearningApp/Preview Content\"";
@@ -351,6 +372,7 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.alexandrecisse.LearningApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -362,6 +384,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"LearningApp/Preview Content\"";
@@ -381,6 +404,7 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.alexandrecisse.LearningApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
