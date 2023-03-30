@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		EC01C57329D5B8A40043D609 /* TestView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC01C57229D5B8A40043D609 /* TestView.swift */; };
 		EC0BEC4B29CF62220064806B /* HomeViewRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC0BEC4A29CF62220064806B /* HomeViewRow.swift */; };
 		EC0F15A229D0550A00CD5345 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC0F15A129D0550A00CD5345 /* ContentView.swift */; };
 		EC0F15A429D05C2C00CD5345 /* ContentViewRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC0F15A329D05C2C00CD5345 /* ContentViewRow.swift */; };
@@ -26,6 +27,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		EC01C57229D5B8A40043D609 /* TestView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestView.swift; sourceTree = "<group>"; };
 		EC0BEC4A29CF62220064806B /* HomeViewRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewRow.swift; sourceTree = "<group>"; };
 		EC0F15A129D0550A00CD5345 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		EC0F15A329D05C2C00CD5345 /* ContentViewRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentViewRow.swift; sourceTree = "<group>"; };
@@ -113,6 +115,7 @@
 				EC0F15A329D05C2C00CD5345 /* ContentViewRow.swift */,
 				EC0F15A129D0550A00CD5345 /* ContentView.swift */,
 				EC939D4329D1CEAB00BB66D9 /* ContentDetailView.swift */,
+				EC01C57229D5B8A40043D609 /* TestView.swift */,
 				EC9E3F2329D36735008E5B83 /* CodeTextView.swift */,
 				EC10CE9029D4C635000B00B2 /* RectangleCard.swift */,
 			);
@@ -224,6 +227,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EC01C57329D5B8A40043D609 /* TestView.swift in Sources */,
 				ECB2082629CDB20100EA779A /* HomeView.swift in Sources */,
 				EC0BEC4B29CF62220064806B /* HomeViewRow.swift in Sources */,
 				EC0F15A229D0550A00CD5345 /* ContentView.swift in Sources */,
