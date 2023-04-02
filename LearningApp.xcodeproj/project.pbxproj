@@ -24,6 +24,7 @@
 		ECB2083A29CDC1AA00EA779A /* data.json in Resources */ = {isa = PBXBuildFile; fileRef = ECB2083829CDC1AA00EA779A /* data.json */; };
 		ECB2083B29CDC1AA00EA779A /* style.html in Resources */ = {isa = PBXBuildFile; fileRef = ECB2083929CDC1AA00EA779A /* style.html */; };
 		ECB2083D29CDCFEC00EA779A /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECB2083C29CDCFEC00EA779A /* Models.swift */; };
+		ECF196D729D9B18200461055 /* TestResultView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECF196D629D9B18200461055 /* TestResultView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -45,6 +46,7 @@
 		ECB2083829CDC1AA00EA779A /* data.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = data.json; sourceTree = "<group>"; };
 		ECB2083929CDC1AA00EA779A /* style.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = style.html; sourceTree = "<group>"; };
 		ECB2083C29CDCFEC00EA779A /* Models.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
+		ECF196D629D9B18200461055 /* TestResultView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestResultView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -116,6 +118,7 @@
 				EC0F15A129D0550A00CD5345 /* ContentView.swift */,
 				EC939D4329D1CEAB00BB66D9 /* ContentDetailView.swift */,
 				EC01C57229D5B8A40043D609 /* TestView.swift */,
+				ECF196D629D9B18200461055 /* TestResultView.swift */,
 				EC9E3F2329D36735008E5B83 /* CodeTextView.swift */,
 				EC10CE9029D4C635000B00B2 /* RectangleCard.swift */,
 			);
@@ -228,6 +231,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				EC01C57329D5B8A40043D609 /* TestView.swift in Sources */,
+				ECF196D729D9B18200461055 /* TestResultView.swift in Sources */,
 				ECB2082629CDB20100EA779A /* HomeView.swift in Sources */,
 				EC0BEC4B29CF62220064806B /* HomeViewRow.swift in Sources */,
 				EC0F15A229D0550A00CD5345 /* ContentView.swift in Sources */,
